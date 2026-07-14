@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dinis Melo | Project Portfolio</title>
+
+    <meta name="description"
+          content="Project portfolio of Dinis Melo showcasing academic and personal software development projects.">
+
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="css/themes.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <nav class="navbar">
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="#hero" data-i18n="nav.home">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="#projects" data-i18n="nav.projects">
+                    Projects
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/DinisMelo51500"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    GitHub
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.linkedin.com/in/dinis-melo-ba7205422/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+            </li>
+
+        </ul>
+
+        <div class="nav-actions">
+
+            <div class="language-switcher">
+
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="pt">PT</button>
+                <button class="lang-btn" data-lang="es">ES</button>
+
+            </div>
+
+            <button
+                    id="theme-toggle"
+                    aria-label="Toggle Theme"
+                    data-i18n-title="theme.toggle">
+
+                <img
+                        id="theme-icon"
+                        src="assets/icons/moon.png"
+                        alt="Theme"
+                        data-i18n-alt="theme.toggle">
+
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+<main>
+
+    <!-- HERO -->
+
+    <section id="hero">
+
+        <div class="hero-image">
+
+            <img
+                    src="assets/images/eu.jpg"
+                    alt="Profile Photo"
+                    data-i18n-alt="hero.photoAlt"
+                    loading="lazy">
+
+        </div>
+
+        <div class="hero-content">
+
+            <h1>Dinis Melo</h1>
+
+            <p data-i18n="hero.description">
+
+                My project portfolio is a collection of projects I have worked on throughout my college years. Some are individual projects, while others were developed as part of a team.
+
+            </p>
+
+            <a
+                    href="#projects"
+                    class="primary-button"
+                    data-i18n="hero.button">
+
+                Explore Projects
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects">
+
+        <div class="section-title">
+
+            <h2 data-i18n="projects.title">
+
+                Projects
+
+            </h2>
+
+            <p data-i18n="projects.subtitle">
+
+                A selection of academic and personal projects.
+
+            </p>
+
+        </div>
+
+        <div id="projects-container">
+
+            <!-- Loaded dynamically -->
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer id="footer">
+
+    <div class="socials">
+
+        <a
+                href="https://github.com/DinisMelo51500"
+                target="_blank"
+                rel="noopener noreferrer">
+
+            GitHub
+
+        </a>
+
+        <a
+                href="https://www.linkedin.com/in/dinis-melo-ba7205422/"
+                target="_blank"
+                rel="noopener noreferrer">
+
+            LinkedIn
+
+        </a>
+
+    </div>
+
+    <p data-i18n="footer.copyright">
+
+        2026 Dinis Melo
+
+    </p>
+
+</footer>
+
+<!-- JAVASCRIPT -->
+
+<script src="js/translations.js"></script>
+<script src="js/language.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/projects.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

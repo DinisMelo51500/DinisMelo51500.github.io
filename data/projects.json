@@ -1,0 +1,127 @@
+[
+  {
+    "title": {
+      "en": "House Booking Website",
+      "pt": "Website de Reserva de Casas",
+      "es": "Sitio Web de Reserva de Casas"
+    },
+    "description": {
+      "en": "A website that allows users to book houses for rent. Users can search for available houses, view details, and make bookings.",
+      "pt": "Website que permite aos utilizadores reservar casas para arrendamento. Os utilizadores podem pesquisar casas disponíveis, consultar os seus detalhes e efetuar reservas.",
+      "es": "Sitio web que permite a los usuarios reservar casas para alquiler. Los usuarios pueden buscar casas disponibles, consultar sus detalles y realizar reservas."
+    },
+    "image": "assets/projects/booking_website.png",
+    "technologies": [
+      "Kotlin",
+      "SQL",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "members": [
+      "Dinis Melo",
+      "Vasco Caramelo",
+      "Guilherme Lamego"
+    ],
+    "statement": "assets/statements/house_booking_website.pdf",
+    "github": "https://github.com/DinisMelo51500/house_booking_website"
+  },
+
+  {
+    "title": {
+      "en": "Epaus Project",
+      "pt": "Projeto Epaus",
+      "es": "Proyecto Epaus"
+    },
+    "description": {
+      "en": "Information system for financial markets management.",
+      "pt": "Sistema de informação para gestão de mercados financeiros.",
+      "es": "Sistema de información para la gestión de mercados financieros."
+    },
+    "image": "assets/projects/epaus.png",
+    "technologies": [
+      "Java",
+      "PL/pgSQL"
+    ],
+    "members": [
+      "Dinis Melo",
+      "Gabriel Subutzki",
+      "David António"
+    ],
+    "statement": "assets/statements/epaus.pdf",
+    "github": "https://github.com/DinisMelo51500/epaus_project"
+  },
+
+  {
+    "title": {
+      "en": "Focaccia Project",
+      "pt": "Projeto Focaccia",
+      "es": "Proyecto Focaccia"
+    },
+    "description": {
+      "en": "Football Complete Clubs API and Chelas Internet Application.",
+      "pt": "API de Clubes de Futebol e aplicação web Chelas Internet.",
+      "es": "API de Clubes de Fútbol y aplicación web Chelas Internet."
+    },
+    "image": "assets/projects/focaccia.png",
+    "technologies": [
+      "JavaScript",
+      "Handlebars",
+      "Node.js",
+      "CSS"
+    ],
+    "members": [
+      "Dinis Melo",
+      "António Morais"
+    ],
+    "statement": "assets/statements/focaccia.pdf",
+    "github": "https://github.com/DinisMelo51500/focaccia_project"
+  },
+
+  {
+    "title": {
+      "en": "My Personal Website",
+      "pt": "O meu Site Pessoal",
+      "es": "Mi Sitio Web Personal"
+    },
+    "description": {
+      "en": "My personal website.",
+      "pt": "O meu site pessoal.",
+      "es": "Mi sitio web personal."
+    },
+    "image": "assets/projects/personal_website.png",
+    "technologies": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "members": [
+      "Dinis Melo"
+    ],
+    "github": "https://github.com/DinisMelo51500/DinisMelo51500.github.io"
+  },
+
+  {
+    "title": {
+      "en": "Snake Game",
+      "pt": "Jogo da Snake",
+      "es": "Juego de la Serpiente"
+    },
+    "description": {
+      "en": "A classic Snake game implemented in Kotlin.",
+      "pt": "Um jogo clássico da Snake implementado em Kotlin.",
+      "es": "Un juego clásico de la Serpiente implementado en Kotlin."
+    },
+    "image": "assets/projects/snake.png",
+    "technologies": [
+      "Kotlin"
+    ],
+    "members": [
+      "Dinis Melo",
+      "Gonçalo Gonçalves",
+      "Bernardo Lopes"
+    ],
+    "statement": "assets/statements/snake.pdf",
+    "github": "https://github.com/DinisMelo51500/snake_game"
+  }
+]
