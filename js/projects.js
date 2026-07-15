@@ -54,6 +54,19 @@ function renderProjects() {
             .map(member => `<li>• ${member}</li>`)
             .join("");
 
+        const statementButton = project.statement
+            ? `
+                <a
+                    href="${project.statement}"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    ${statementLabel}
+
+                </a>
+              `
+            : "";
+
         const card = document.createElement("article");
 
         card.className = "project-card";
@@ -99,14 +112,7 @@ function renderProjects() {
 
                     </a>
 
-                    <a
-                        href="${project.statement}"
-                        target="_blank"
-                        rel="noopener noreferrer">
-
-                        ${statementLabel}
-
-                    </a>
+                    ${statementButton}
 
                 </div>
 
