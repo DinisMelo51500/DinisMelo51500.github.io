@@ -123,5 +123,51 @@
     ],
     "statement": "assets/statements/snake.pdf",
     "github": "https://github.com/DinisMelo51500/snake_game"
+  },
+
+  {
+    "title": {
+      "en": "Sum of squares of natural numbers",
+      "pt": "Soma dos quadrados dos números naturais",
+      "es": "Suma de los cuadrados de los números naturales"
+    },
+    "description": {
+      "en": "Design and implementation of the architecture for the sum of squares of natural numbers.",
+      "pt": "Design e implementação da arquitetura para a soma dos quadrados dos números naturais.",
+      "es": "Diseño e implementación de la arquitectura para la suma de los cuadrados de los números naturales."
+    },
+    "image": "assets/projects/lsd_project.png",
+    "technologies": [
+      "VHDL"
+    ],
+    "members": [
+      "Dinis Melo",
+      "Francisco Mota"
+    ],
+    "statement": "assets/statements/LSD_2425i_TLAB3.pdf",
+    "github": "https://github.com/DinisMelo51500/sum_of_squares_project"
+  },
+
+  {
+    "title": {
+      "en": "Electronic Dice",
+      "pt": "Dado Eletrónico",
+      "es": "Dado Electrónico"
+    },
+    "description": {
+      "en": "Implementation of the architecture for the electronic dice.",
+      "pt": "Implementação da arquitetura de um dado eletrónico.",
+      "es": "Implementación de la arquitectura para el dado electrónico."
+    },
+    "image": "assets/projects/ac_project.png",
+    "technologies": [
+      "Assembly p16"
+    ],
+    "members": [
+      "Dinis Melo",
+      "Bernardo Lopes"
+    ],
+    "statement": "assets/statements/dados_eletronicos.pdf",
+    "github": "https://github.com/DinisMelo51500/electronic_dice_project"
   }
 ]
